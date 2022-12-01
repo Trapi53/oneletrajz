@@ -1,0 +1,31 @@
+body {
+  margin: auto;
+  max-width: 800px;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: var(--color);
+}
+article {
+    background-color: var(--ar);
+}
+aside {
+    background-color: var(--as);
+}
+aside i img {
+  max-width: 35px;
+}
+aside img{
+    max-width: 230px;
+}
+.light-theme {
+  --color: #000000;
+  --ar: #dddddd;
+  --as: #c0c0c0;
+}
+.dark-theme{
+    --ar: #303030;
+    --as: #535353;
+    --color: #c0c0c0;
+}
